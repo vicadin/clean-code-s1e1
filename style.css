@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row {
   display: flex;
@@ -116,7 +116,7 @@ input,button{
   width: 226px;
 }
 .item >    .item-input {
-  width: 226px
+  width: 226px;
 }
 .btn.btn-delete img {
   height: 2em;
@@ -129,18 +129,18 @@ input,button{
 
 /* Completed */
 .list#completed-tasks .item-label {
-  text-decoration: line-through
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .list .item input[type=text] {
-  display: none
+  display: none;
 }
 
 .list .item.edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .item.edit-mode .item-label {
