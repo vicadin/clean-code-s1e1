@@ -115,7 +115,7 @@ input,button{
   font-size: 18px;
   width: 226px;
 }
-.item >    .item-input {
+.item > .item-input {
   width: 226px;
 }
 .btn.btn-delete img {
@@ -134,11 +134,11 @@ input,button{
 }
 
 /* Edit Task */
-.list .item input[type=text] {
+.list .item .item-input {
   display: none;
 }
 
-.list .item.edit-mode input[type=text] {
+.list .item.edit-mode .item-input {
   display: inline-block;
   width: 224px;
 }
