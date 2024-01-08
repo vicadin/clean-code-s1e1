@@ -120,12 +120,12 @@ button{
 .item > .item__input {
   width: 226px;
 }
-.btn.btn-delete img {
+.btn.item__btn_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn.btn-delete img:hover {
+.btn.item__btn_delete img:hover {
   transform: rotateZ(0);
 }
 
